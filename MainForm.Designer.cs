@@ -151,7 +151,7 @@ namespace PackagesCompare
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Packages Compare";
+            this.Text = "Packages Compare 1.0.2";
             this.ResumeLayout(false);
 
         }

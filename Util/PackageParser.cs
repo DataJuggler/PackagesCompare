@@ -73,7 +73,7 @@ namespace PackagesCompare.Util
                             if (useXml)
                             {
                                 // if this line starts with Package                                
-                                if ((line.Text.Trim().StartsWith("<package")) && (!TextHelper.Equals(line.Text, "<packages>")))
+                                if ((line.Text.Trim().StartsWith("<package")) && (!line.Text.StartsWith("<packages")))
                                 {
                                     // Create a new instance of a 'Package' object.
                                     Package package = new Package();

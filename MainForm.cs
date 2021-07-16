@@ -54,7 +54,7 @@ namespace PackagesCompare
                 List<Package> targetPackages = PackageParser.Parse(this.TargetControl.Text);                
                 StringBuilder sb = new StringBuilder();
 
-                // To Do: Now do the Comparison Report
+                // If both lists exist and have one or more items
                 if (ListHelper.HasOneOrMoreItems(sourcePackages, targetPackages))
                 {
                     // Iterate the collection of Package objects
@@ -89,7 +89,8 @@ namespace PackagesCompare
                     {
                         // Show a header
                         sb.Append("New Packages: ");
-
+                        sb.Append(newPackages.Count);
+                        
                         // Add a new line
                         sb.Append(Environment.NewLine);
 
@@ -116,7 +117,8 @@ namespace PackagesCompare
                     {
                         // Show a header
                         sb.Append("Removed Packages: ");
-
+                        sb.Append(removedPackages.Count);
+                        
                         // Add a new line
                         sb.Append(Environment.NewLine);
 

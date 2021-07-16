@@ -5,6 +5,9 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>Merge Boxes.ico</ApplicationIcon>
+    <Version>1.0.2</Version>
+    <Description>This program is used to compare two packages.config files to show new and removed packages.</Description>
+    <PackageReleaseNotes>1.0.2: I fixed it to where if &lt;packages&gt; node has &lt;packages xmlns="urn:packages"&gt; it still works.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
