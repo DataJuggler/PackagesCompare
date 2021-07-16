@@ -8,7 +8,11 @@ In version one, I needed this for work which is a .Net Framework project with th
 Let me know if there are other features needed, such as updates to Versions or Target Frameworks for packages.
 
 This project uses two of my projects:
-DataJuggler.Win.Controls
+DataJuggler.Win.Controls<br />
 DataJuggler.UltimateHelper
+
+If you like regions, which most of you don't, the project also was regionized using Regionizer.
+https://github.com/DataJuggler/Regionizer
+A Visual Studio package that serves as a document formatter, code generation tool and auto commenter.
 
 
